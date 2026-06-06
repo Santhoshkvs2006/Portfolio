@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Santhosh K – Computer Science Engineering Student & Aspiring Software Developer. Portfolio showcasing projects, skills, and internship experience." />
+  <meta name="keywords" content="Santhosh K, portfolio, computer science, web developer, software developer, Tamil Nadu" />
+  <meta name="author" content="Santhosh K" />
+  <title>Santhosh K | CS Engineering Student & Developer</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">SK<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#internship" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+
+    <div class="hero-container">
+      <div class="hero-text" data-aos="fade-right">
+        <span class="hero-greeting">Hello, I'm</span>
+        <h1 class="hero-name">Santhosh<br /><span class="accent">K</span></h1>
+        <p class="hero-role">
+          <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-sub">CS Engineering Student at Loyola-ICAM · Building the web, one project at a time.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get In Touch <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+          <a href="file:///C:/Users/santh/Downloads/SANTHOSH_K_FlowCV_Resume_2026-06-05.pdf" target="_blank" rel="noopener" class="btn btn-resume"><i class="fa-solid fa-eye"></i> View Resume</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/santhosh-k-26052006sk/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/Santhoshkvs2006" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://leetcode.com/u/Santhoshkvs2006/" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+          <a href="mailto:santhoshkvs728@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap" data-aos="fade-left">
+        <div class="hero-image-ring ring-outer"></div>
+        <div class="hero-image-ring ring-inner"></div>
+        <div class="hero-avatar">
+          <img src="profile.jpg.png" alt="Santhosh K" id="profileImg" onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='flex'" />
+          <div class="avatar-fallback" id="avatarFallback">SK</div>
+        </div>
+        <div class="floating-badge badge-1"><i class="fa-brands fa-js"></i> JavaScript</div>
+        <div class="floating-badge badge-2"><i class="fa-brands fa-python"></i> Python</div>
+        <div class="floating-badge badge-3"><i class="fa-solid fa-microchip"></i> Embedded</div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-info" data-aos="fade-right">
+          <p class="about-lead">I'm a motivated Computer Science Engineering student passionate about turning ideas into real-world software solutions.</p>
+          <p class="about-body">Currently pursuing my B.E. at <strong>Loyola-ICAM College of Engineering and Technology</strong>, I love exploring the intersection of web development, artificial intelligence, and embedded systems. I believe in learning by building — every project is a new challenge and a new lesson.</p>
+          <div class="about-details">
+            <div class="detail-item"><i class="fa-solid fa-graduation-cap"></i><div><strong>B.E. Computer Science Engineering</strong><span>Loyola-ICAM, 2024 – 2028</span></div></div>
+            <div class="detail-item"><i class="fa-solid fa-location-dot"></i><div><strong>Harur, Dharmapuri</strong><span>Tamil Nadu, India</span></div></div>
+            <div class="detail-item"><i class="fa-solid fa-briefcase"></i><div><strong>AI Web Dev Intern</strong><span>InAmigos Foundation</span></div></div>
+            <div class="detail-item"><i class="fa-solid fa-language"></i><div><strong>Languages</strong><span>Tamil (Native) · English (Proficient)</span></div></div>
+          </div>
+          <div class="about-cta">
+            <a href="#contact" class="btn btn-primary">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="about-cards" data-aos="fade-left">
+          <div class="stat-card">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="5">0</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="1">0</span>
+            <span class="stat-label">Internship</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="1">0</span>
+            <span class="stat-label">Certification</span>
+          </div>
+          <div class="interests-card">
+            <h4>Interests</h4>
+            <div class="interest-tags">
+              <span>Web Dev</span><span>AI / ML</span><span>Open Source</span><span>Hackathons</span><span>Embedded Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="accent">Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Technical Skills -->
+        <div class="skills-col" data-aos="fade-right">
+          <h3 class="skills-col-title">Technical Proficiency</h3>
+          <div class="skill-bar-list">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span><i class="fa-solid fa-c"></i> C Programming</span><span class="pct">80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span><i class="fa-brands fa-python"></i> Python</span><span class="pct">75%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span><i class="fa-brands fa-html5"></i> HTML &amp; CSS</span><span class="pct">88%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span><i class="fa-brands fa-js"></i> JavaScript</span><span class="pct">72%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span><i class="fa-solid fa-database"></i> MySQL</span><span class="pct">65%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span><span class="pct">70%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills / Tool Cards -->
+        <div class="skills-col" data-aos="fade-left">
+          <h3 class="skills-col-title">Tools &amp; Soft Skills</h3>
+          <div class="tool-cards">
+            <div class="tool-card"><i class="fa-solid fa-robot"></i><span>AI Tools</span></div>
+            <div class="tool-card"><i class="fa-solid fa-puzzle-piece"></i><span>Problem Solving</span></div>
+            <div class="tool-card"><i class="fa-solid fa-microchip"></i><span>Embedded Systems</span></div>
+            <div class="tool-card"><i class="fa-solid fa-users"></i><span>Team Collaboration</span></div>
+            <div class="tool-card"><i class="fa-solid fa-magnifying-glass"></i><span>Research</span></div>
+            <div class="tool-card"><i class="fa-solid fa-lightbulb"></i><span>Creative Thinking</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INTERNSHIP ========== -->
+  <section id="internship" class="section experience">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Work Experience</span>
+        <h2 class="section-title">My <span class="accent">Experience</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <h3 class="timeline-role">AI Web Development Intern</h3>
+                <p class="timeline-company"><i class="fa-solid fa-building"></i> InAmigos Foundation</p>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Jun 2026 – Present</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built and maintained a personal portfolio website to showcase projects and skills.</li>
+              <li>Assisted in website enhancement — improving UI, performance, and functionality.</li>
+              <li>Researched AI-powered web development tools and suggested practical implementations.</li>
+              <li>Supported web development tasks using <strong>HTML, CSS, JavaScript,</strong> and <strong>GitHub</strong>.</li>
+              <li>Collaborated with team members to solve technical issues and enhance features.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub</span><span>AI Tools</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education timeline item -->
+        <div class="timeline-item edu" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-dot edu-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <h3 class="timeline-role">Bachelor of Engineering – CS</h3>
+                <p class="timeline-company"><i class="fa-solid fa-university"></i> Loyola-ICAM College of Engineering &amp; Technology</p>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2024 – 2028</span>
+            </div>
+            <p class="timeline-desc">Currently in my first year, studying core CS subjects including Data Structures, Programming in C &amp; Python, Database Management, and Web Technologies.</p>
+            <div class="timeline-tags">
+              <span>Harur, Tamilnadu</span><span>B.E. CSE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span class="accent">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fa-solid fa-fish"></i></div>
+            <div class="project-num">01</div>
+            <h3 class="project-title">Automated Fish Feeding System</h3>
+            <p class="project-desc">An embedded group project that automates food dispensing for fish at scheduled intervals — improving feeding consistency and reducing manual effort.</p>
+            <ul class="project-points">
+              <li>Automated dispensing at scheduled intervals</li>
+              <li>Embedded system concepts for hardware control</li>
+              <li>Reduced manual intervention significantly</li>
+            </ul>
+            <div class="project-tech">
+              <span>Arduino</span><span>Embedded Systems</span><span>C</span>
+            </div>
+          </div>
+          <div class="project-card-glow"></div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fa-solid fa-recycle"></i></div>
+            <div class="project-num">02</div>
+            <h3 class="project-title">Recycled E-Waste Management Website</h3>
+            <p class="project-desc">A full website to promote e-waste recycling and environmental awareness — providing guidance on responsible disposal and recycling practices.</p>
+            <ul class="project-points">
+              <li>Awareness-focused UI for recycling information</li>
+              <li>Responsible disposal guides and resource links</li>
+              <li>User-friendly engagement interface</li>
+            </ul>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-card-glow"></div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="project-num">03</div>
+            <h3 class="project-title">Stock Market Analyzer Website</h3>
+            <p class="project-desc">A web-based platform for stock information and market analysis — featuring interactive data visualization tools that help users understand market trends.</p>
+            <ul class="project-points">
+              <li>Interactive charts for data visualization</li>
+              <li>Simplified market trend analysis for users</li>
+              <li>Clean, responsive UI design</li>
+            </ul>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-card-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">Certifi<span class="accent">cations</span></h2>
+      </div>
+
+      <!-- All 4 certificates grid -->
+      <div class="cert-img-grid">
+
+        <!-- 1: Internshala -->
+        <div class="cert-img-card" data-aos="fade-up">
+          <div class="cert-img-info">
+            <span class="cert-img-badge internshala">Certificate of Selection</span>
+            <h4>AI Web Development Internship</h4>
+            <p><i class="fa-solid fa-building"></i> InAmigos Foundation · Internshala</p>
+            <span><i class="fa-regular fa-calendar-check"></i> June 03, 2026</span>
+            <button class="cert-view-btn" onclick="openModal('Santhosh_K_Hired_Certificate_page-0001.jpg','Certificate of Selection – AI Web Development Internship')"><i class="fa-solid fa-eye"></i> View Certificate</button>
+          </div>
+        </div>
+
+        <!-- 2: Ctrl+Alt+Hack -->
+        <div class="cert-img-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="cert-img-info">
+            <span class="cert-img-badge hackathon">Certificate of Participation</span>
+            <h4>Ctrl+Alt+Hack 2.0</h4>
+            <p><i class="fa-solid fa-university"></i> LICET – Dept. of CSE &amp; IIC</p>
+            <span><i class="fa-regular fa-calendar-check"></i> March 9–11, 2026</span>
+            <button class="cert-view-btn" onclick="openModal('cert_hackathon.png','Ctrl+Alt+Hack 2.0 – Certificate of Participation')"><i class="fa-solid fa-eye"></i> View Certificate</button>
+          </div>
+        </div>
+
+        <!-- 3: Oracle SQL -->
+        <div class="cert-img-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="cert-img-info">
+            <span class="cert-img-badge oracle">Award of Completion</span>
+            <h4>Database Programming with SQL – English</h4>
+            <p><i class="fa-solid fa-database"></i> Oracle Academy</p>
+            <span><i class="fa-regular fa-calendar-check"></i> November 12, 2025</span>
+            <button class="cert-view-btn" onclick="openModal('Screenshot 2026-06-05 210742.png','Oracle Academy – Database Programming with SQL – English')"><i class="fa-solid fa-eye"></i> View Certificate</button>
+          </div>
+        </div>
+
+        <!-- 4: Oracle PLSQL -->
+        <div class="cert-img-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="cert-img-info">
+            <span class="cert-img-badge oracle">Award of Completion</span>
+            <h4>Database Programming with PL/SQL</h4>
+            <p><i class="fa-solid fa-server"></i> Oracle Academy</p>
+            <span><i class="fa-regular fa-calendar-check"></i> November 12, 2025</span>
+            <button class="cert-view-btn" onclick="openModal('cert_plsql.png','Oracle Academy – Database Programming with PL/SQL')"><i class="fa-solid fa-eye"></i> View Certificate</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Universal Certificate Modal -->
+  <div class="cert-modal" id="certModal">
+    <div class="cert-modal-backdrop" onclick="closeCertModal()"></div>
+    <div class="cert-modal-box">
+      <button class="cert-modal-close" onclick="closeCertModal()"><i class="fa-solid fa-xmark"></i></button>
+      <img src="" id="modalCertImg" alt="Certificate" />
+      <p class="modal-cert-title" id="modalCertTitle"></p>
+    </div>
+  </div>
+
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <p class="contact-intro">I'm always open to discussing new opportunities, exciting projects, or just having a conversation about technology. Feel free to reach out!</p>
+
+          <div class="contact-items">
+            <a href="mailto:santhoshkvs728@gmail.com" class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div><strong>Email</strong><span>santhoshkvs728@gmail.com</span></div>
+            </a>
+            <a href="tel:+916381193445" class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div><strong>Phone</strong><span>+91 6381193445</span></div>
+            </a>
+            <div class="contact-item no-link">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div><strong>Location</strong><span>Harur, Dharmapuri, Tamil Nadu, India</span></div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/santhosh-k-26052006sk/" target="_blank" class="social-btn linkedin" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i><span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Santhoshkvs2006" target="_blank" class="social-btn github" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i><span>GitHub</span>
+            </a>
+            <a href="https://leetcode.com/u/Santhoshkvs2006/" target="_blank" class="social-btn leetcode" aria-label="LeetCode">
+              <i class="fa-solid fa-code"></i><span>LeetCode</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap" data-aos="fade-left">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Internship Opportunity" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Hey Santhosh, I'd like to connect..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo">SK<span class="dot">.</span></a>
+      <p class="footer-copy">&copy; 2026 Santhosh K. Designed &amp; developed with <i class="fa-solid fa-heart accent"></i></p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
